@@ -1,0 +1,14 @@
+language: python
+python:
+# Uncomment python versions that you want to be installed and tested.
+#  - "2.6"
+  - "2.7"
+#  - "3.2"
+#  - "3.3"
+#  - "3.4"
+install:
+  - python setup.py install
+script:
+  - nosetests
+notifications:
+  email: false # Set to 'true' if you want that Travis send you an e-mail.
