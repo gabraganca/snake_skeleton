@@ -4,8 +4,10 @@ Snake Skeleton
 .. image:: https://travis-ci.org/gabraganca/snake_skeleton.svg
     :target: https://travis-ci.org/gabraganca/snake_skeleton
 
-This serves as an skeleton to build a python package.
+.. image:: https://coveralls.io/repos/gabraganca/snake_skeleton/badge.png
+    :target: https://coveralls.io/r/gabraganca/snake_skeleton
 
+This serves as an skeleton to build a python package.
 
 Continous Integration
 ---------------------
