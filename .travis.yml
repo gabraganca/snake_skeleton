@@ -8,8 +8,10 @@ python:
 #  - "3.4"
 install:
   - python setup.py install
-  - pip install -q coverage
+  - pip install -q coverage coveralls
 script:
   - nosetests --with-coverage
+after_sucess:
+    - coveralls
 notifications:
   email: false # Set to 'true' if you want that Travis send you an e-mail.
